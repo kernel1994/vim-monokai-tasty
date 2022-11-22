@@ -32,10 +32,10 @@ endif
 
 " Colours {{{
 let s:purple = { 'cterm': 141, 'gui': '#AF87FF' }
-let s:light_green = { 'cterm': 148, 'gui': '#A4E400' }
+let s:light_green = { 'cterm': 148, 'gui': '#7ABE48' }
 let s:light_blue = { 'cterm': 81, 'gui': '#62D8F1' }
-let s:magenta = { 'cterm': 197, 'gui': '#FC1A70' }
-let s:orange = { 'cterm': 208, 'gui': '#FF9700' }
+let s:magenta = { 'cterm': 197, 'gui': '#FD3654' }
+let s:orange = { 'cterm': 208, 'gui': '#EE7334' }
 " A296C7 - purple (muted)
 " A8E393 - light green (muted)
 " 6DB6CF - light blue (muted)
@@ -55,7 +55,7 @@ if g:vim_monokai_tasty_machine_tint == 1
   let s:darker_grey = { 'cterm': 238, 'gui': '#242F35' }
   let s:light_charcoal = { 'cterm': 238, 'gui': '#1A2225' }
   let s:charcoal = { 'cterm': 235, 'gui': '#171C20' }
-  let s:yellow = { 'cterm': 228, 'gui': '#F6F557' }
+  let s:yellow = { 'cterm': 228, 'gui': '#DBB036' }
 else
   " Monokai classic
   " Monochrome in order light -> dark
@@ -64,8 +64,8 @@ else
   let s:dark_grey = { 'cterm': 59, 'gui': '#5F5F5F' }
   let s:darker_grey = { 'cterm': 238, 'gui': '#444444' }
   let s:light_charcoal = { 'cterm': 238, 'gui': '#2B2B2B' }
-  let s:charcoal = { 'cterm': 235, 'gui': '#262626' }
-  let s:yellow = { 'cterm': 228, 'gui': '#FFFF87' }
+  let s:charcoal = { 'cterm': 235, 'gui': '#22242A' }
+  let s:yellow = { 'cterm': 228, 'gui': '#DBB036' }
 endif
 
 let s:off_white = { 'cterm': 251, 'gui': '#CCCCCC' }
